@@ -32,38 +32,36 @@ Contains steps to create Webhook in Watson AIOps Event Manager (NOI) Console to 
 
 ### Create Application in Instana
 
-Contains steps to create Application or Application Perspective in Instana.
+Contains steps to create Application or Application Perspective in Instana for the kubernetes based microservices application.
 
 [Create Application in Instana](2-application)
-
 
 
 ### Create Custom Payload in Instana
 
 Contains steps to create Custom Payload in Instana.
 
-[Create Custom Payload in Instana](3-custom-payload)
+This helps the Instana to send additional info along with the alert data to the alert channels.
 
+[Create Custom Payload in Instana](3-custom-payload)
 
 
 ### Create Event in Instana
 
-Contains steps to create Event in Instana.
+Contains steps to create Event in Instana based on JVM memory usage for a given Application Perspective.
 
 [Create Event in Instana](4-event)
 
 
-
 ### Create Alert Channel in Instana
 
-Contains steps to create Alert Channels in Instana.
+Contains steps to create Alert Channels in Instana that points to the Webhook in IBM Watson AIOps Event Manager (NOI).
 
 [Create Alert Channel in Instana](5-alert-channel)
 
 
 ### Create Alert in Instana
 
-Contains steps to create Alert in Instana.
+Contains steps to create Alert in Instana about memory high issue pointing to above created alert channel.
 
 [Create Alert in Instana](6-alert)
-
